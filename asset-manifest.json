@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/projects/static/css/main.966a3897.css",
+    "main.js": "/projects/static/js/main.37ef7ca9.js",
+    "static/js/787.562d687e.chunk.js": "/projects/static/js/787.562d687e.chunk.js",
+    "static/media/Sparkle.mp3": "/projects/static/media/Sparkle.48dd9a438a8fd4f5c2d0.mp3",
+    "static/media/TEACHERS-DAY.PNG": "/projects/static/media/TEACHERS-DAY.1c1ff673eb5f9c773497.PNG",
+    "static/media/FOOTWEAR-APP.PNG": "/projects/static/media/FOOTWEAR-APP.ce38f4dbf1a9fe39e37b.PNG",
+    "static/media/FACEBOOK-CLONE.PNG": "/projects/static/media/FACEBOOK-CLONE.976faa0ac2fa5d40e1c1.PNG",
+    "static/media/2.jpg": "/projects/static/media/2.65f426f385b3f82a643e.jpg",
+    "static/media/PORTFOLIO.PNG": "/projects/static/media/PORTFOLIO.b8471d7c5380eb98740d.PNG",
+    "static/media/JOBS.PNG": "/projects/static/media/JOBS.0274bfc1ebacd5ed1013.PNG",
+    "static/media/3.jpg": "/projects/static/media/3.40d165d80b3a3b370a74.jpg",
+    "static/media/CALC.PNG": "/projects/static/media/CALC.477d20a44b114bd6399c.PNG",
+    "static/media/1.jpg": "/projects/static/media/1.d9302fdfe11bfee4c79b.jpg",
+    "static/media/CRUD.PNG": "/projects/static/media/CRUD.cee82e76ac70dc61a876.PNG",
+    "static/media/4.jpg": "/projects/static/media/4.0d88d64b551413daf6b2.jpg",
+    "static/media/2R8-COM.PNG": "/projects/static/media/2R8-COM.15a5d16604ae0858f932.PNG",
+    "static/media/Button.mp3": "/projects/static/media/Button.a8c48a9c14e27fae1e78.mp3",
+    "static/media/react.svg": "/projects/static/media/react.14254739beb94b95ab8968e7f6e110da.svg",
+    "index.html": "/projects/index.html",
+    "main.966a3897.css.map": "/projects/static/css/main.966a3897.css.map",
+    "main.37ef7ca9.js.map": "/projects/static/js/main.37ef7ca9.js.map",
+    "787.562d687e.chunk.js.map": "/projects/static/js/787.562d687e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.966a3897.css",
+    "static/js/main.37ef7ca9.js"
+  ]
+}
