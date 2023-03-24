@@ -1,41 +1,79 @@
-.App {
-  text-align: center;
-}
+* {box-sizing: border-box;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+html { background-color: #111111; margin: 0px; padding: 0px; overflow-x: hidden;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+  .copyright {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center; text-align: center; }
+
+  .footer_copyright {
+    margin: auto;
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .footer_copyright div { 
+    margin: auto;
+    display: flex; justify-content: center;
+    align-items: center; text-align: center;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-
-.list { margin: 20px; padding: 20px; background-color: white; color: #111111; list-style: none;}
+  .sol-icon { -webkit-animation: beat .25s infinite alternate;
+    -moz-animation: beat .25s infinite alternate;
+    -ms-animation: beat .25s infinite alternate;
+    -o-animation: beat .25s infinite alternate;
+    animation: beat .25s infinite alternate;
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -o-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;}
+  
+  @keyframes beat{
+    to {
+       -webkit-transform: scale(1.4);
+        -moz-transform: scale(1.4);
+        -o-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
+    }
+   
+   }
+   
+   @-moz-keyframes beat {
+    to {
+      -moz-transform: scale(1.4);
+      transform: scale(1.4);
+    }
+   
+   }
+   
+   @-webkit-keyframes beat{
+    to {
+      -webkit-transform: scale(1.4);
+      transform: scale(1.4);
+    }
+   
+   }
+   
+   @-ms-keyframes beat {
+    to {
+      -ms-transform: scale(1.4);
+      transform: scale(1.4);
+    }
+   
+   }
+   
+   @-o-keyframes beat {
+    to {
+      -o-transform: scale(1.4);
+      transform: scale(1.4);
+    }
+   
+   } 

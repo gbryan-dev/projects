@@ -1,18 +1,59 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@layer base {
+    html {
+      user-select: none;
+    }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+    .calbtncon #button {
+        position: relative;
+        border: none;
+        padding: 5px;
+        background: #111111;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 5px;
+        font-size: 23px;
+        opacity: 0.8;
+        text-align: center;
+        font-family: 'Inter';
+        cursor: pointer;
+        letter-spacing: 1px;
+        box-shadow: aqua 0px 7px 3px, #000 0px 8px 5px;
+        transition: 0.1s;
+      }
+
+      .calbtncon #button span {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        
+      }
+
+      .calbtncon #button:nth-child(1), #button:nth-child(2), #button:nth-child(3),#button:nth-child(4),#button:nth-child(8),#button:nth-child(12),#button:nth-child(16){ background-color: #111111;
+        box-shadow: #42f56f 0px 7px 2px, #000 0px 8px 5px;}
+
+      .calbtncon #button:hover {
+        transform: scale(1.050);
+      }
+      
+      .calbtncon #button:active {
+        top: 4px;
+        box-shadow: #42f56f 0px 3px 2px,#000 0px 3px 5px;
+        color:#42f56f ;
+      }
+
+      .calbtncon #button.active {
+        top: 4px;
+        box-shadow: #42f56f 0px 3px 2px,#000 0px 3px 5px;
+        color:#42f56f ;
+      }
 }
