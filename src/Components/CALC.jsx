@@ -134,7 +134,7 @@ const CALC = () => {
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [inputed]);
+  }, []);
 
   return (
     <>

@@ -26,7 +26,7 @@ function App() {
               className="sol-icon"
             />
             <span className="sl-footer-links__marked-text">
-              &nbsp; by Bryan G
+              &nbsp; by Bryan G.
             </span>
           </div>
           Invest in your future
