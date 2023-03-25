@@ -8,24 +8,24 @@ const CALC = () => {
 
   const buttons = [
     { label: "AC", icon: null, ref: useRef() },
-    { label: "del", icon: "fa fa-backspace", ref: useRef() },
-    { label: "%", icon: "fa fa-percent", ref: useRef() },
-    { label: "/", icon: null, ref: useRef() },
+    { label: "del", icon: "fa-solid fa-delete-left", ref: useRef() },
+    { label: "%", icon: "fa-solid fa-percent", ref: useRef() },
+    { label: "/", icon: "fa-solid fa-divide", ref: useRef() },
     { label: "7", icon: null, ref: useRef() },
     { label: "8", icon: null, ref: useRef() },
     { label: "9", icon: null, ref: useRef() },
-    { label: "*", icon: "fa fa-times", ref: useRef() },
+    { label: "*", icon: "fa-solid fa-xmark", ref: useRef() },
     { label: "4", icon: null, ref: useRef() },
     { label: "5", icon: null, ref: useRef() },
     { label: "6", icon: null, ref: useRef() },
-    { label: "-", icon: "fa fa-minus", ref: useRef() },
+    { label: "-", icon: "fa-solid fa-minus", ref: useRef() },
     { label: "1", icon: null, ref: useRef() },
     { label: "2", icon: null, ref: useRef() },
     { label: "3", icon: null, ref: useRef() },
-    { label: "+", icon: "fas fa-plus", ref: useRef() },
+    { label: "+", icon: "fa-solid fa-plus", ref: useRef() },
     { label: "0", icon: null, ref: useRef() },
     { label: ".", icon: null, ref: useRef() },
-    { label: "=", icon: "fa fa-equals", ref: useRef() },
+    { label: "=", icon: "fa-solid fa-equals", ref: useRef() },
   ];
 
   const [inputed, setInput] = useState([]);
