@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import projs from "../DB/Projs";
 import Sparkle from "./Sparkle-YourName.mp3";
@@ -7,6 +7,9 @@ import Sparkle from "./Sparkle-YourName.mp3";
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
+  setTimeout(() => {
+    new Audio(Sparkle).play();
+  }, 100);
   return (
     <>
       <div className="h-auto w-screen sm:full sm:mt-10  max-w-[1200px] mb-[0px] p-10 sm:p-4 mt-24 mx-auto">
@@ -37,7 +40,8 @@ const Home = () => {
                   class="max-w-sm w-[330px] h-[380px] md:w-[300px] sm:h-auto sm:w-full mx-auto m-2 bg-[#19181a] rounded-2xl"
                   initial={{ opacity: 0, y: -50 }}
                   animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 50 }}>
+                  exit={{ opacity: 0, y: 50 }}
+                  key={proj.title}>
                   <div
                     class="rounded-t-lg w-full h-[150px]"
                     style={{
@@ -54,7 +58,7 @@ const Home = () => {
                     <p class="mb-3 font-normal text-gray-500 ">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                       Qui, assumenda vel in iste velit laudantium unde
-                      reprehenderit ab
+                      reprehenderit
                     </p>
 
                     <div className="flex justify-between">
@@ -83,9 +87,9 @@ const Home = () => {
                             viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                              clip-rule="evenodd"></path>
+                              clipRule="evenodd"></path>
                           </svg>
                         </div>
                       </Link>
