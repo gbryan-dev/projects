@@ -11,7 +11,7 @@ const Animbg = ({ color }) => {
           const width = `${Math.floor(Math.random() * 40) + 2}px`;
           const height = width;
           const bottom = `-${height}`;
-          const delay = `${Math.floor(Math.random() * 60)}s`;
+          const delay = `${Math.floor(Math.random() * 10)}s`;
           return (
             <li
               key={index}
