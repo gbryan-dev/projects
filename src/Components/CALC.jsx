@@ -92,6 +92,7 @@ const CALC = () => {
       } else if (num === "=") {
         setInput([]);
         setShowres(true);
+        setResult("");
         setError("");
         const savedInput = localStorage.getItem("inputed");
         if (savedInput !== null) {
