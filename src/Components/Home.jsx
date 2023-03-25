@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import projs from "../DB/Projs";
-import Sparkle from "./Sparkle-YourName.mp3.mp3";
+import Sparkle from "./Sparkle-YourName.mp3";
 
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState("");
