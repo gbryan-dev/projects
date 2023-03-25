@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import projs from "../DB/Projs";
 import Sparkle from "./Sparkle-YourName.mp3";
@@ -7,9 +7,6 @@ import Sparkle from "./Sparkle-YourName.mp3";
 const Home = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
-  setTimeout(() => {
-    new Audio(Sparkle).play();
-  }, 100);
   return (
     <>
       <div className="h-auto w-screen sm:full sm:mt-10  max-w-[1200px] mb-[0px] p-10 sm:p-4 mt-24 mx-auto">
