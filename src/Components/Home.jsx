@@ -22,7 +22,7 @@ const Home = () => {
             class="bg-gray-50 border text-center text-[21px] border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-emerald-500 focus:border-emerald-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-emerald-500 dark:focus:border-emerald-500"
           />
         </div>
-        <div class="flex flex-row flex-wrap sm:flex-col w-full p-5 pt-0 pb-0">
+        <div class="flex flex-row flex-wrap sm:flex-col w-full p-5 pt-4 pb-0">
           <AnimatePresence>
             {projs
               ?.filter(
@@ -34,7 +34,7 @@ const Home = () => {
               )
               .map((proj) => (
                 <motion.div
-                  class="max-w-sm w-[330px] h-[380px] sm:h-auto sm:w-full mx-auto m-2 bg-[#19181a] rounded-2xl"
+                  class="max-w-sm w-[330px] h-[380px] md:w-[300px] sm:h-auto sm:w-full mx-auto m-2 bg-[#19181a] rounded-2xl"
                   initial={{ opacity: 0, y: -50 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 50 }}>
