@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/projects/static/css/main.966a3897.css",
-    "main.js": "/projects/static/js/main.7c36872c.js",
+    "main.js": "/projects/static/js/main.1ce82aa6.js",
     "static/js/787.562d687e.chunk.js": "/projects/static/js/787.562d687e.chunk.js",
     "static/media/Sparkle.mp3": "/projects/static/media/Sparkle.48dd9a438a8fd4f5c2d0.mp3",
     "static/media/TEACHERS-DAY.PNG": "/projects/static/media/TEACHERS-DAY.1c1ff673eb5f9c773497.PNG",
@@ -20,11 +20,11 @@
     "static/media/react.svg": "/projects/static/media/react.14254739beb94b95ab8968e7f6e110da.svg",
     "index.html": "/projects/index.html",
     "main.966a3897.css.map": "/projects/static/css/main.966a3897.css.map",
-    "main.7c36872c.js.map": "/projects/static/js/main.7c36872c.js.map",
+    "main.1ce82aa6.js.map": "/projects/static/js/main.1ce82aa6.js.map",
     "787.562d687e.chunk.js.map": "/projects/static/js/787.562d687e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.966a3897.css",
-    "static/js/main.7c36872c.js"
+    "static/js/main.1ce82aa6.js"
   ]
 }
