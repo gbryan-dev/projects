@@ -19,39 +19,41 @@ function App() {
   };
 
   return (
-    <div onClick={handlePlay}>
-      <ReactAudioPlayer
-        ref={audioo}
-        src={Sparkle}
-        loop={true}
-        autoPlay={true}
-        style={{ position: "fixed", left: "0px", top: "0px" }}
-      />
+    <>
+      <div onClick={handlePlay}>
+        <ReactAudioPlayer
+          ref={audioo}
+          src={Sparkle}
+          loop={true}
+          autoPlay={true}
+          style={{ position: "fixed", left: "0px", top: "0px" }}
+        />
 
-      <Animbg color={"rgba(36, 238, 87, 0.911)"} />
-      <Animbg color={"rgba(23, 226, 233, 0.911)"} />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/calc" element={<CALC />} />
-        <Route path="/crud" element={<CRUD />} />
-      </Routes>
+        <Animbg color={"rgba(36, 238, 87, 0.911)"} />
+        <Animbg color={"rgba(23, 226, 233, 0.911)"} />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calc" element={<CALC />} />
+          <Route path="/crud" element={<CRUD />} />
+        </Routes>
 
-      <div className="copyright">
-        <div className="footer_copyright">
-          <div>
-            Made with &nbsp;
-            <SvgREACT
-              style={{ height: "35px", width: "35px" }}
-              className="sol-icon"
-            />
-            <span className="sl-footer-links__marked-text">
-              &nbsp; by Bryan G.
-            </span>
+        <div className="copyright">
+          <div className="footer_copyright">
+            <div>
+              Made with &nbsp;
+              <SvgREACT
+                style={{ height: "35px", width: "35px" }}
+                className="sol-icon"
+              />
+              <span className="sl-footer-links__marked-text">
+                &nbsp; by Bryan G.
+              </span>
+            </div>
+            Invest in your future
           </div>
-          Invest in your future
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
