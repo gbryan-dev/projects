@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <div onClick={handlePlay}>
+      <div onClick={handlePlay} style={{ height: "auto", width: "100%" }}>
         <ReactAudioPlayer
           ref={audioo}
           src={Sparkle}

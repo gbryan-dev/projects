@@ -1,6 +1,6 @@
 * {box-sizing: border-box;}
 
-html { background-color: #111111; margin: 0px; padding: 0px; overflow-x: hidden;}
+html { background-color: #111111; height: auto; width: 100vw; margin: 0px; padding: 0px; overflow-x: hidden;}
 
 
   .copyright {
